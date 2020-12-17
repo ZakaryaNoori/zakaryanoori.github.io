@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: 'Zakarya Noori',
+  siteUrl: 'zakaryanoori.github.io',
   plugins: []
 }
