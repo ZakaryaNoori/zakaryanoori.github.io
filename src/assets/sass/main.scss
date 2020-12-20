@@ -15,7 +15,8 @@ body {
 
 #app {
 	max-width: 1024px;
-	width: 1024px;
+	width: 100%;
+	margin: 0 5rem;
 }
 
 .main-content {
@@ -59,5 +60,17 @@ body {
 				width: 100%;
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 564px) {
+	body {
+		padding: 2.75rem;
+	}
+	.profile {
+		margin-bottom: 3rem;
+	}
+	.introduction {
+		font-size: 1.5rem !important;
 	}
 }
